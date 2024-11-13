@@ -44,7 +44,7 @@ function submitData(e) {
 
   // Send the text to the server using fetch API
 
-  const baseUrl = "https://your-backend-url.com"; // Replace with the actual backend URL
+  const baseUrl = "https://summaryai.onrender.com"; // Replace with the actual backend URL
 
   fetch(`${baseUrl}/summarize`, requestOptions)
     .then(response => response.text()) // Response will be summarized text
